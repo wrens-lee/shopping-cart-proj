@@ -1,14 +1,15 @@
-import { useState } from 'react'
 import { Outlet } from 'react-router';
 import './App.css'
 import NavBar from './Components/NavBar';
 
 function App() {
   return (
-    <>
-      <NavBar/>
-      <Outlet/>
-    </>
+    <div className="min-h-screen flex flex-col">
+      <NavBar />
+      <main className='flex-1 flex flex-col'>
+        <Outlet />
+      </main>
+    </div>
   );
 }
 

@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+body {
+  background-color: #faf9f6;
+}
+
+@theme{ 
+  /* Primary (brand / CTA) */
+  --color-primary: #0F766E;        /* Deep Teal */
+  --color-primary-hover: #0B5A54;   /* Darker Teal */
+
+  /* Secondary / accent */
+  --color-accent: #F97362;         /* Warm Coral */
+
+  /* Backgrounds & surfaces */
+  --color-bg: #FAF9F6;             /* Off-white page background */
+  --color-surface: #FFFFFF;        /* Cards, navbar */
+  --color-surface-alt: #F3F4F1;    /* Image placeholders / subtle fill */
+
+  /* Borders */
+  --color-border: #E4E4E7;
+
+  /* Text */
+  --color-text-primary: #1F2937;   /* Charcoal */
+  --color-text-secondary: #6B7280; /* Slate Grey */
+
+  /* Feedback */
+  --color-success: #16A34A;        /* Emerald — "Added ✓" state */
+  --color-error: #DC2626;          /* Amber-Red — Remove button, warnings */
+
+  /* Disabled */
+  --color-disabled-bg: #D1D5DB;
+  --color-disabled-text: #6B7280;
+
+  /* Badge (cart count) */
+  --color-badge-bg: #F97362;
+  --color-badge-text: #FFFFFF;
+};
