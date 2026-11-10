@@ -21,8 +21,8 @@ export const ItemContextProvider = ({children}) =>{
   }, []);
 
   return (
-    <ItemContext.Provider value={{data:data, error:error, loading:loading, cart:cart, setCart:setCart}}>
+    <ItemContext value={{data:data, error:error, loading:loading, cart:cart, setCart:setCart}}>
       {children}
-    </ItemContext.Provider>
+    </ItemContext>
   )
 }
